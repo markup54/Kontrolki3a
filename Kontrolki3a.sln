@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kontrolki3a", "Kontrolki3a\Kontrolki3a.csproj", "{8BDA11C4-1D0F-40F9-8D0B-A76B6E9E2D8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BDA11C4-1D0F-40F9-8D0B-A76B6E9E2D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BDA11C4-1D0F-40F9-8D0B-A76B6E9E2D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BDA11C4-1D0F-40F9-8D0B-A76B6E9E2D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BDA11C4-1D0F-40F9-8D0B-A76B6E9E2D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08FB88A6-4F21-4369-9A69-E0F0C3E0A758}
+	EndGlobalSection
+EndGlobal

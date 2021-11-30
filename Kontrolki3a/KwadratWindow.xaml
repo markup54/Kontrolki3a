@@ -1,0 +1,67 @@
+﻿<Window x:Class="Kontrolki3a.KwadratWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kontrolki3a"
+        mc:Ignorable="d"
+        Title="KwadratWindow" Height="450" Width="800">
+    
+        <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Label Margin="30"
+               VerticalAlignment="Center">
+            bok
+        </Label>
+        <TextBox Grid.Column="1"
+                 Margin="30"
+               VerticalAlignment="Center"
+                 x:Name="textBox">
+            
+        </TextBox>
+        <Label Grid.Column="2"
+               Margin="30"
+               VerticalAlignment="Center">
+            Wpisz długośc boku
+        </Label>
+        <Label Grid.Row="1"
+               Margin="30"
+               VerticalAlignment="Center">
+            pole
+        </Label>
+        <TextBlock 
+            Grid.Row="1" 
+            Grid.Column="1"
+            Margin="30"
+            VerticalAlignment="Center">
+            pole
+        </TextBlock>
+        <Label Grid.Row="2"
+               Margin="30"
+               VerticalAlignment="Center">
+            obwód
+        </Label>
+        <TextBlock Grid.Row="2" 
+                   Grid.Column="1"
+                   Margin="30"
+               VerticalAlignment="Center">
+            obwod
+        </TextBlock>
+        <Button Grid.Column="1" Grid.Row="3"
+                Margin="30"
+               VerticalAlignment="Center" Click="Button_Click">
+            Oblicz
+        </Button>
+        </Grid>
+   
+</Window>
